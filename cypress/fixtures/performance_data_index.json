@@ -2,21 +2,24 @@
     "entries": [
         {
             "data": {
-                "message": "Below Average"
+                "message": "Below Average",
+                "distance": "1500"
             },
             "id": 1,
             "user_id": 1
         },
         {
             "data": {
-                "message": "Average"
+                "message": "Average",
+                "distance": "1800"
             },
             "id": 2,
             "user_id": 1
         },
         {
             "data": {
-                "message": "Above Average"
+                "message": "Above Average",
+                "distance": "2200"
             },
             "id": 3,
             "user_id": 1

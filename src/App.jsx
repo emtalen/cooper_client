@@ -47,7 +47,7 @@ class App extends Component {
     if (response.registered) {
       this.setState({ registered: true });
     } else {
-      this.setState({ message: response.message, renderRegisterUser: false });
+      this.setState({ message: "Something went wrong, try again", renderRegisterUser: false });
     }
   };
 

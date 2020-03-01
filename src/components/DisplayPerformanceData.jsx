@@ -3,6 +3,7 @@ import { getData } from "../modules/performanceData";
 import { Line } from "react-chartjs-2";
 
 class DisplayPerformanceData extends Component {
+
   state = {
     performanceData: null,
     renderIndex: false
@@ -26,6 +27,7 @@ class DisplayPerformanceData extends Component {
   }
 
   render() {
+    let dataIndex;
     if (this.state.performanceData != null) {
       dataIndex = (
         <div>
@@ -59,7 +61,9 @@ class DisplayPerformanceData extends Component {
     };
 
     return (
+      
       <div id="index">
+        {/* {dataIndex} */}
         <Line height={30} width={100} data={dataForLineDiagram} />
       </div>
     );

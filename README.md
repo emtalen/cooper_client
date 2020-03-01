@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### The Cooper Challenge
 
-## Available Scripts
+This is the Client of the first full stack application that we have created!
+We have used Ruby on Rails 6.0.2.1 to create a backend API and used React 16.12.0 for the frontend and user interface. 
 
-In the project directory, you can run:
+The application is a calculation of the Cooper test where the user can sign up, log in and then fill in the distance they ran in 12 minutes, gender and age. In the return the user gets a Cooper index. 
+The user can show their previous results and will then get a line diagram with all their previous data. 
 
-### `yarn start`
+### Link: 
+https://cooper-client.netlify.com/
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To check out our repo of the Rails API:
+https://cooper-api1.herokuapp.com/api/v1/
+https://github.com/emtalen/cooper_api
+https://github.com/pierre-1/cooper_api
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Tested With:
+- We have used Cypress for acceptance test
+- We have user Jest wih Enzyme for component testing
 
-### `yarn test`
+### User Stories: 
+- As a User
+In order to create my personal account
+I would like to sign up a new account
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- As a User
+In order to use my account
+I would like to be able to log in
 
-### `yarn build`
+- As a User
+In order to get my personal Cooper index
+I would like to fill in my personal values
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- As a User
+In order to know what my Cooper Index is
+I would like to get back a message telling me the index
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- As a User
+In order to keep my previous results
+I would like to be able to save them
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- As a User
+In order to keep that of my development
+I would like to be presented with all my previous results
 
-### `yarn eject`
+### Improvements/Updates:
+There are a lot of improvement points on this project. 
+There are som navigation issues, like a 'go back' button that needs to be added but also the possibility to log out. 
+When the user creates an account there is no message saying that the account was successfully created, or that the user automatically is logged in. 
+And of course the user should be able to log out from the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Apart from that we would also need to add styling so that the application becomes more user friendly and easier to interact with. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### License: 
+#### MIT-license
